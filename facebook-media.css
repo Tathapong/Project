@@ -1,0 +1,48 @@
+/*Responsive*/
+@media (max-width:1080px) {
+
+    body {
+        align-items: stretch;
+    }
+    main {
+        margin-inline: 40px;
+        left: 0px;
+    }
+    footer {
+        align-items: stretch;
+        padding-inline: 40px;
+        left: 0px;
+    }
+    footer > div {
+        width:unset;
+    }
+    .side-l > h2{
+
+        width: 368px;
+        font-size: 24px;
+    }
+}
+@media (max-width:900px){
+    main {
+        flex-flow: column nowrap;
+        align-items: center;
+        padding: 20px;
+    }
+    .side-l {
+        width: 400px;
+        padding-top: 15px;
+        padding-right: 0px;
+        align-items: center;
+    }
+    .side-l > h2 {
+        width: 400px;
+        height: 56px;
+        text-align: center;
+    }
+    .side-l > div {
+        margin-bottom: 20px;
+    }
+    .side-r {
+        margin-top: 40px;
+    }
+}
